@@ -17,13 +17,6 @@ import photo13 from "./images/ph13.jpg";
 import photo14 from "./images/ph14.jpg";
 import photo15 from "./images/ph15.jpg";
 
-import test1 from "./test/test1.jpg";
-import test2 from "./test/test2.jpg";
-import test3 from "./test/test3.jpg";
-import test4 from "./test/test4.jpg";
-import test5 from "./test/еуые5.jpg";
-import test6 from "./test/test6.jpg";
-
 const photos = [
   {
     src: photo1,
@@ -64,44 +57,6 @@ const photos = [
       "А эту я даже не видел, а вот пересмотрел актуальные и теперь увидел",
   },
   { src: photo15, title: "Photo 15" },
-];
-
-const photos2 = [
-  {
-    src: test1,
-    title: "test",
-    small: true,
-  },
-
-  {
-    src: test2,
-    title: "test",
-    small: true,
-  },
-
-  {
-    src: test3,
-    title: "test",
-    small: true,
-  },
-
-  {
-    src: test4,
-    title: "test",
-    small: true,
-  },
-
-  {
-    src: test5,
-    title: "test",
-    small: true,
-  },
-
-  {
-    src: test6,
-    title: "test",
-    small: true,
-  },
 ];
 
 const AppContainer = styled.div`
